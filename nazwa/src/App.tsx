@@ -8,6 +8,8 @@ import Register2Page from './pages/Register2Page/register2Page'
 import Register3Page from './pages/Register3Page/register3Page'
 import PasswordPage from './pages/PasswordPage/passwordPage'
 import PasswordmsgPage from './pages/PasswordmsgPage/passwordmsg'
+import InvList from './pages/InvList/invList'
+
 
 function App() {
 
@@ -21,6 +23,7 @@ function App() {
         <Route path='/register3' element= {<Register3Page/>}/>
         <Route path='/password' element= {<PasswordPage/>}/>
         <Route path='/passwordmsg' element= {<PasswordmsgPage/>}/>
+        <Route path='/invlist' element= {<InvList/>}/>
       </Routes>
     </div>
   )
