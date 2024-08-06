@@ -50,10 +50,10 @@ export default function LoginPage() {
 
           <div className={styles.dane}>Stanowisko</div>
 
-          <select
+          <select 
             id="stanowisko"
             name="stanowisko"
-            className={styles.inputLogin}
+            className={styles.opcje}
           >
             <option value="azbestan">wybierz stanowisko</option>
             <option value="australia">Australia</option>

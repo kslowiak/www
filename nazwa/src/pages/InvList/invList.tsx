@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import styles from "./landingPage.module.css";
+import styles from "./invList.module.css";
 import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 
-export default function LandingPage() {
+export default function InvList() {
   let navigate = useNavigate();
   const handleClick1 = () => {
-    navigate('/loginpage'); // Wstaw docelowy URL ścieżki
+    navigate('/loginPage'); // Wstaw docelowy URL ścieżki
   };
   const handleClick2 = () => {
     navigate('/register1'); // Wstaw docelowy URL ścieżki

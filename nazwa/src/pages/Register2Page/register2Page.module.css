@@ -31,6 +31,7 @@
     color: white;
     font-size: 18px;
     font-family: Nico Moji; 
+    margin-top: 18px;
 }
 
 .naglowek{
@@ -54,12 +55,13 @@
     background: #97A9AE;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50) inset;
     display: flex;
-    justify-content: center;
     align-items:center;
     flex-direction: column;
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .inputLogin{
@@ -138,11 +140,24 @@
 
 .dane{
     height:20px;
-    width: 60%;
     font-weight: bold;
     font-size: 20px;
     border:none;
-    padding-right: 18vw;
+    padding-left: 15%;
+    width: 80%;
+    display: flex;
+
+}
+
+.opcje{
+    height: 150px;
+    min-height: 45px;
+    width:70%;
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border:none;
+    border-radius: 3px;
+    display: flex;
 }
 
 @media(max-width:850px){

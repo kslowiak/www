@@ -8,19 +8,6 @@ export default function LoginPage() {
   const [user, setUser] = useState({ mail: "" });
 
 
-  const Home = () => {
-    
-
-    // const handleClick = () => {
-    //     navigate('/about'); // Wstaw docelowy URL ścieżki
-    // };
-
-    // return (
-    //     <div>
-    //         <button onClick={handleClick}>Przejdź do strony</button>
-    //     </div>
-    // );
-};
 let navigate = useNavigate();
 const handleClick = () => {
   navigate('/register2'); // Wstaw docelowy URL ścieżki
